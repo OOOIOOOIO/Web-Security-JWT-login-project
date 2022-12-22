@@ -7,3 +7,9 @@ Project Spec
 - Graddle : 7.5.1
 - jwt : 0.11.2
 - h2 : 2.1.214
+
+[1]https://www.bezkoder.com/spring-boot-security-login-jwt/
+
+[2]https://www.bezkoder.com/spring-security-refresh-token/
+
+[시큐리티 버전]https://www.bezkoder.com/websecurityconfigureradapter-deprecated-spring-boot/
