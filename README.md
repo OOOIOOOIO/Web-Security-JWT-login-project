@@ -1,12 +1,45 @@
 # Web-Security-JWT-login-project
 Login with HTTP Only Cookie &amp; Spring Security &amp; Spring boot by Web Style.
 
-Project Spec
+## Project Spec
 - java : 11
 - Spring Boot : 2.7.6
 - Graddle : 7.5.1
 - jwt : 0.11.2
 - h2 : 2.1.214
+- mysql : 8.0.3
+
+<br>
+
+## Domain
+- ### User
+   - userId / Long 
+   - username / String
+   - email / String
+   - password / String
+   - roles / Set<Role>
+
+- ### Role
+   - roleId / Long
+   - name / Erole
+  
+- ### RefreshToken
+   - refreshId / Long
+   - user / User
+   - token / String
+   - expiryDate / Instant
+  
+- ### ERole(enum)
+   - ROLE_USER
+   - ROLE_MODERATOR
+   - ROLE_ADMIN
+
+User <--OneToOne-- RefreshToken
+User <--ManyToMany--> Role  ===> "USER_ROLES" TABLE CREATED
+
+<br>
+<hr>
+<br>
 
 [1]https://www.bezkoder.com/spring-boot-security-login-jwt/
 
