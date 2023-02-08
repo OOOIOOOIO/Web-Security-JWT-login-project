@@ -34,8 +34,6 @@ Login with HTTP Only Cookie &amp; Spring Security &amp; Spring boot by Web Style
    - ROLE_MODERATOR
    - ROLE_ADMIN
 
-User <--OneToOne-- RefreshToken
-User <--ManyToMany--> Role  ===> "USER_ROLES" TABLE CREATED
 
 <br>
 <hr>
