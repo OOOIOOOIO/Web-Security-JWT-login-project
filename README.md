@@ -1,5 +1,5 @@
 # Web-Security-JWT-login-project
-Login with HTTP Only Cookie &amp; Spring Security &amp; Spring boot by Web Style.
+Login with Web Style using JWT & HTTP Only Cookie & Spring Security & Spring boot and also practice login with common JWT using interceptor
 
 ## Project Spec
 - java : 11
